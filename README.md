@@ -19,13 +19,13 @@ Launch Termux, then:
 <p>
   
 ```
-wget --no-check-certificate "https://raw.githubusercontent.com/NotesOfReality/Termux_url_opener_all_in_one_downloader/master/install.sh" && chmod +x install.sh && bash install.sh
+wget --no-check-certificate "https://raw.githubusercontent.com/NotesOfReality/Termux_url_opener_all_in_one_downloader/WIP/install.sh" && chmod +x install.sh && bash install.sh
 ```
   
 </p>
 </details>
 
-* _or_ run the install script [line by line](https://raw.githubusercontent.com/NotesOfReality/Termux_url_opener_all_in_one_downloader/master/install.sh)
+* _or_ run the install script [line by line](https://raw.githubusercontent.com/NotesOfReality/Termux_url_opener_all_in_one_downloader/WIP/install.sh)
 
 # FAQ
 This script is blank sensitive. Therefore options `3` and `3 ` are treated differently, while the former will launch option 3 the latter is invalid and will launch the _default_ option.

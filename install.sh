@@ -14,6 +14,6 @@ wget --no-check-certificate --output-document="/data/data/com.termux/files/usr/b
 chmod +x "/data/data/com.termux/files/usr/bin/bandcamp-dl"
 
 #Installing the script
-wget -P /data/data/com.termux/files/home/bin/ --no-check-certificate "https://raw.githubusercontent.com/NotesOfReality/Termux_url_opener_all_in_one_downloader/master/termux-url-opener" 
+wget -P /data/data/com.termux/files/home/bin/ --no-check-certificate "https://raw.githubusercontent.com/NotesOfReality/Termux_url_opener_all_in_one_downloader/WIP/termux-url-opener" 
 chmod +x "/data/data/com.termux/files/home/bin/termux-url-opener"
 termux-setup-storage
