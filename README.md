@@ -1,6 +1,8 @@
 # All-in-one Download Script for Termux ([URL Opener](https://wiki.termux.com/wiki/Intents_and_Hooks))
 
-Dependencies: `ffmpeg, youtube-dl, python, wget, spotdl, yt-dlp, rbtv-dl, bandcamp-dl, you-get`
+Dependencies: `ffmpeg, youtube-dl, python, wget, spotdl, yt-dlp, rbtv-dl, bandcamp-dl, you-get, termux-api`
+
+[Termux:API](https://wiki.termux.com/wiki/Termux:API) [APK](https://f-droid.org/packages/com.termux.api/) (and its homonymus termux pkg) are *eventually* needed to comfortably share the streamable URL (of the media URL you target) with any compatible app (like a media player, for instance). 
 
 ![Screenshot_20201103-143432_Termux.jpg](/screenshot.png)
 

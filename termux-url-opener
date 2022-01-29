@@ -4,6 +4,7 @@ url=$1
 echo "All-in-one Download Script for Termux"
 echo "----------Last updated Jul 31 2021----------"
 echo "--------------------------------------------"
+echo "s: Send its streamable URL to a compatible app"
 echo "1: Download with yt-dlp (Fixed Bandwidth Throttling by YouTube)"
 echo "2: Download with ffmpeg(m3u8/m3u)"
 echo "3: Download with wget (Recursive)"
@@ -16,6 +17,10 @@ echo "9: Download with rbtv-dl (Red Bull TV)"
 echo "0: Download with bandcamp-dl (Batch Download from Bandcamp Artist)"
 echo "Default: Download with yt-dlp (Fixed Bandwidth Throttling by YouTube)"
 read n
+
+if [ "$n" == 's' ]; then
+yt-dlp --get-url --format b $url | termux-share -a send
+else
 
 if [ "$n" == '2' ]; then
 echo "Output Filename:"
@@ -77,4 +82,4 @@ fi
 fi
 fi
 fi
-
+fi
