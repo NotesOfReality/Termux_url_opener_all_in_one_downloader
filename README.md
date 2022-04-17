@@ -19,7 +19,7 @@ Launch Termux, then:
 <p>
   
 ```
-wget --no-check-certificate "https://raw.githubusercontent.com/NotesOfReality/Termux_url_opener_all_in_one_downloader/WIP/install.sh" && chmod +x install.sh && bash install.sh
+pkg install wget && wget --no-check-certificate "https://raw.githubusercontent.com/NotesOfReality/Termux_url_opener_all_in_one_downloader/WIP/install.sh" && chmod +x install.sh && bash install.sh
 ```
   
 </p>
