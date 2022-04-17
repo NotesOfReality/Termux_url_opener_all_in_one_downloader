@@ -5,7 +5,7 @@ mkdir /data/data/com.termux/files/home/bin
 
 #Installing dependencies
 pkg update -y && pkg install wget python ffmpeg -y
-yes | pip install youtube-dl spotdl yt-dlp you-get bs4
+yes | pip install youtube-dl spotdl yt-dlp you-get rapidfuzz==1.9.1 bs4==4.10.0
 
 wget --no-check-certificate --output-document="/data/data/com.termux/files/usr/bin/rbtv-dl" "https://raw.githubusercontent.com/M3GABOY/rbtv-dl/main/rbtv-dl.py"
 chmod +x "/data/data/com.termux/files/usr/bin/rbtv-dl"
