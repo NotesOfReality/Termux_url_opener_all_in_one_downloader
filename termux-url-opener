@@ -58,7 +58,6 @@ read c
 	else
 [ ! -d "/data/data/com.termux/files/home/storage/downloads/youtube-dl" ] && mkdir "/data/data/com.termux/files/home/storage/downloads/youtube-dl"
 yt-dlp --extractor-args "youtube:player_client=android" -x --audio-format mp3 -f bestaudio --audio-quality 0 -c -i "$url" -o "/data/data/com.termux/files/home/storage/downloads/youtube-dl/%(title)s.%(ext)s"
-else
 
 if [ "$n" == '6' ]; then
 [ ! -d "/data/data/com.termux/files/home/storage/downloads/youtube-dl" ] && mkdir "/data/data/com.termux/files/home/storage/downloads/youtube-dl"
@@ -82,7 +81,6 @@ read c
 	else
 [ ! -d "/data/data/com.termux/files/home/storage/downloads/youtube-dl" ] && mkdir "/data/data/com.termux/files/home/storage/downloads/youtube-dl"
 youtube-dl -x --audio-format mp3 -f bestaudio --audio-quality 0 -c -i "$url" -o "/data/data/com.termux/files/home/storage/downloads/youtube-dl/%(title)s.%(ext)s"
-else
 
 if [ "$n" == '8' ]; then
 [ ! -d "/data/data/com.termux/files/home/storage/downloads/you-get" ] && mkdir "/data/data/com.termux/files/home/storage/downloads/you-get"
